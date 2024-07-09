@@ -462,7 +462,7 @@ let UserMenu = ({ state, toggle }) => {
             transformOrigin={{ horizontal: "right", vertical: "top" }}
             anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
         >
-            {!user ? (
+            {user ? (
                 <Box>
                     <MenuItem
                         onClick={() => {

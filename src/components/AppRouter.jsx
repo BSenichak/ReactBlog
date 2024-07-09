@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import NotFound from "../pages/NotFound";
 import { TransitionGroup, CSSTransition, SwitchTransition } from "react-transition-group";
 import "../assets/styles/transitions.css";
+import LoginPage from "../pages/LoginPage";
 
 export default function AppRouter() {
   let location = useLocation();
@@ -20,6 +21,7 @@ export default function AppRouter() {
           <div ref={nodeRef}>
             <Routes location={location}>
               <Route path="/" element={<h1>Hello</h1>} />
+              <Route path="/login" element={<LoginPage />} />
               <Route path="/*" element={<NotFound />} />
             </Routes>
           </div>

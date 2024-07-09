@@ -32,5 +32,12 @@
     }
   },
   "notFound": "Page Not Found",
-  "goBack": "Go back to home page"
+  "goBack": "Go back to home page",
+  "login": {
+    "passwordLength": "The password must be at least 9 characters long",
+    "passwordEmpty": "The password must not be empty",
+    "passwordComplex": "Password must contain at least one capital letter",
+    "passwordNoDigits": "Password must contain at least one number",
+    "error": "Check the entered data"
+  }
 }
