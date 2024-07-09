@@ -1,0 +1,36 @@
+{
+  "name": "Blog",
+  "search": "Search...",
+  "blog": "Blog",
+  "header": {
+    "title": "Reacters",
+    "subtitle": "Charitable Organization",
+    "links": {
+      "about": "About us",
+      "awards": "Our honors",
+      "calendar": "Calendar of events",
+      "charity_projects": "Charity projects",
+      "contacts": "Our contacts",
+      "contract_offer": "Offer contract",
+      "cultural_projects": "Cultural projects",
+      "documents": "Official documents",
+      "education": "Education",
+      "festivals": "Charity festivals and contests",
+      "media": "Media",
+      "partners": "Our partners",
+      "philanthropy": "Patronage",
+      "projects": "Projects",
+      "reports": "reports",
+      "support": "Support",
+      "team": "Our team",
+      "login": "Sign in",
+      "register": "Sign up",
+      "profile": "My profile",
+      "add_news": "Add news",
+      "logout": "Go out",
+      "chats": "chats"
+    }
+  },
+  "notFound": "Page Not Found",
+  "goBack": "Go back to home page"
+}

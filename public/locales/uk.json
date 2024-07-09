@@ -1,0 +1,36 @@
+{
+  "name": "Блог",
+  "search": "Пошук...",
+  "blog": "Блог",
+  "header": {
+    "title": "Reacters",
+    "subtitle": "Благодійна організація",
+    "links": {
+      "about": "Про нас",
+      "team": "Наша команда",
+      "awards": "Наші відзнаки",
+      "contacts": "Наші контакти",
+      "partners": "Наші партнери",
+      "documents": "Офіційні документи",
+      "contract_offer": "Договір оферти",
+      "reports": "Звіти",
+      "charity_projects": "Благодійні проєкти",
+      "cultural_projects": "Культурні проєкти",
+      "philanthropy": "Меценатство",
+      "festivals": "Благодійні фестивалі та конкурси",
+      "education": "Освіта",
+      "calendar": "Календар подій",
+      "media": "Медіа",
+      "support": "Підтримка",
+      "projects": "Проєкти",
+      "login": "Увійти",
+      "register": "Зареєструватися",
+      "profile": "Мій профіль",
+      "add_news": "Додати новину",
+      "chats": "Чати",
+      "logout": "Вийти"
+    }
+  },
+  "notFound": "Сторінку не знайдено",
+  "goBack": "Повернутися на голову"
+}
