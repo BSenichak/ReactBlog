@@ -38,6 +38,29 @@
     "passwordEmpty": "The password must not be empty",
     "passwordComplex": "Password must contain at least one capital letter",
     "passwordNoDigits": "Password must contain at least one number",
-    "error": "Check the entered data"
+    "error": "Check the entered data",
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "passwordInfo": "Password must contain at least 8 characters, 1 capital letter and 1 number",
+    "button": "Sign in",
+    "nick": "User name",
+    "nicknameEmpty": "Nickname cannot be empty",
+    "emailInvalid": "Incorrect e-mail entered",
+    "repeatpassword": "Repeat the password",
+    "passwordsNotMatch": "Passwords do not match",
+    "terms": "I agree with",
+    "termsLink": "rules of use",
+    "termsTitle": "Rules of use",
+    "termsButton": "Acquainted",
+    "termsNotChecked": "Agree to the terms of use",
+    "termsText1": "General rules of conduct on the site:",
+    "termsText2": "Let's start with the fact that there are hundreds of people of different religions and beliefs communicating on the site, and they are all valid visitors to our site, so if we want this community of people to function, we need rules. \nWe strongly recommend that you familiarize yourself with these rules, it will take you only five minutes, but it will save us and you time and help make the site more interesting and organized. \nTo begin with, you need to behave respectfully to all site visitors on our site. \nDo not insult the participants, it is always unnecessary. \nIf you have any complaints, please contact the administrators or moderators (use your private messages). \nInsulting other visitors is considered one of the most serious violations and is severely punished by the administration. \nWe strictly prohibit racism, religious and political speech. \nThank you in advance for your understanding and for wanting to make our site more polite and friendly.",
+    "termsText3": "The following is strictly prohibited on the site:",
+    "termsText4": "Messages that do not relate to the content of the article or the context of the discussion - insulting and threatening site visitors - comments prohibit statements containing inappropriate language, degrading human dignity, inciting international enmity - spam, as well as advertising of any goods and services, other resources, mass media \nor events that do not relate to the context of the discussion of the article Let's respect each other and the site where you and other readers come to communicate and express your opinions. \nThe site administration reserves the right to delete comments or part of them if they do not meet these requirements.  \nIf you break the rules, you may be given a warning. \nIn some cases, the ban can be granted without warning. \nWrite to the administrator about removing bananas.  \nInsulting administrators or moderators is also punishable by a ban - respect the work of others."
+  },
+  "Register": {
+    "title": "Register",
+    "button": "Sign up"
   }
 }

@@ -49,15 +49,15 @@ export default function LoginPage() {
     function validateEmail(email) {
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if (!emailRegex.test(email)) {
-            return "Invalid email address.";
+            return t("login.emailInvalid");
         }
         return "";
     }
     return (
         <Wrapper>
-            <Typography variant="h2">Login</Typography>
+            <Typography variant="h2">{t("login.title")}</Typography>
             <FormControl variant="standard">
-                <InputLabel>Login</InputLabel>
+                <InputLabel>{t("login.email")}</InputLabel>
                 <Input
                     value={login}
                     onChange={(e) => setLogin(e.target.value)}
@@ -66,7 +66,7 @@ export default function LoginPage() {
                 <FormHelperText>{loginError}</FormHelperText>
             </FormControl>
             <FormControl variant="standard">
-                <InputLabel>Password</InputLabel>
+                <InputLabel>{t("login.password")}</InputLabel>
                 <Input
                 sx={{marginRight: "2rem"}}
                     error={!!passwordError}
@@ -88,7 +88,7 @@ export default function LoginPage() {
                     }
                 />
                 <InfoIco>
-                    <Tooltip title="Пароль має містити мінімум 8 символів, 1 велику букву та 1 цифру">
+                    <Tooltip title={t("login.passwordInfo")}>
                         <InfoIcon />
                     </Tooltip>
                 </InfoIco>
@@ -102,7 +102,7 @@ export default function LoginPage() {
                     }else {
                         setErrorOpen(true);
                     }
-            }}>Login</Button>
+            }}>{t("login.button")}</Button>
             <Snackbar open={errorOpen} autoHideDuration={3000} onClose={() => setErrorOpen(false)}>
                 <Alert severity="error" >{t("login.error")}</Alert>
             </Snackbar>
