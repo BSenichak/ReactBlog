@@ -37,9 +37,9 @@ import PersonIcon from "@mui/icons-material/Person";
 import LoginIcon from "@mui/icons-material/Login";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import BadgeIcon from "@mui/icons-material/Badge";
-import CreateIcon from '@mui/icons-material/Create';
-import ChatIcon from '@mui/icons-material/Chat';
-import LogoutIcon from '@mui/icons-material/Logout';
+import CreateIcon from "@mui/icons-material/Create";
+import ChatIcon from "@mui/icons-material/Chat";
+import LogoutIcon from "@mui/icons-material/Logout";
 
 let aboutLink = {
     t: "header.links.about",
@@ -186,7 +186,7 @@ let LogoWrapper = styled(Link)`
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: ${({ theme }) => theme.palette.text.secondary};
+    color: white;
     padding: 0.3rem 0;
     font-family: ${({ theme }) => theme.typography.fontFamily};
     min-width: 180px;
@@ -212,13 +212,13 @@ let LinksBar = () => {
             <LinkItem data={aboutLink} />
             <LinkItem data={projectsLink} />
             <IconButton onClick={() => goTo("/calendar")}>
-                <CalendarMonthIcon />
+                <CalendarMonthIcon sx={{ color: "white" }} />
             </IconButton>
             <IconButton onClick={() => goTo("/media")}>
-                <PermMediaIcon />
+                <PermMediaIcon sx={{ color: "white" }} />
             </IconButton>
             <IconButton onClick={() => goTo("/support")}>
-                <HandshakeIcon />
+                <HandshakeIcon sx={{ color: "white" }} />
             </IconButton>
         </LinksBarWrapper>
     );
@@ -235,7 +235,7 @@ let LinksBarWrapper = styled(Box)`
 
 let LinkItemWrapper = styled(Link)`
     text-decoration: none;
-    color: ${({ theme }) => theme.palette.text.secondary};
+    color: white;
     padding: 0.3rem 0.5rem;
     font-family: ${({ theme }) => theme.typography.fontFamily};
     position: relative;
@@ -285,7 +285,7 @@ let LinkItem = ({ data }) => {
 
 let SubLink = styled(Link)`
     text-decoration: none;
-    color: ${({ theme }) => theme.palette.text.secondary};
+    color: ${({ theme }) => theme.palette.text.primary};
     font-family: ${({ theme }) => theme.typography.fontFamily};
 `;
 
@@ -497,7 +497,7 @@ let UserMenu = ({ state, toggle }) => {
                         </ListItemIcon>
                         {t("header.links.chats")}
                     </MenuItem>
-                    <Divider/>
+                    <Divider />
                     <MenuItem
                         onClick={() => {
                             toggle(null);
